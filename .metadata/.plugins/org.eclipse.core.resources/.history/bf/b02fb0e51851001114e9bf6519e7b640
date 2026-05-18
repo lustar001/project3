@@ -1,0 +1,13 @@
+package kr.or.proj3.Proj3DAO;
+
+import java.util.List;
+
+import kr.or.proj3.DTO.Proj3DTO;
+
+public class Proj3DAOImpl {
+	
+	public List<Proj3DTO> readEmp() {
+		
+	}
+
+}

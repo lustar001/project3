@@ -1,0 +1,8 @@
+package kr.or.proj3;
+import org.springframework.stereotype.Controller;
+@ProjController
+public class ProjController {
+	
+	
+
+}

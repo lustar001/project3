@@ -1,0 +1,6 @@
+package kr.or.proj3.DTO;
+
+@Data
+public class Proj3DTO {
+
+}

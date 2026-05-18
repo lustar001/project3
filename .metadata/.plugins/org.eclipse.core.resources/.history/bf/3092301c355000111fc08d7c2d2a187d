@@ -1,0 +1,6 @@
+package kr.or.proj3;
+
+@Controller
+public class Controller {
+
+}

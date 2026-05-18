@@ -1,0 +1,15 @@
+package proj03.User;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServiceImpl {
+	
+	@Override
+	public List<UserDTO> user() {
+		List<UserDTO> list = new ArrayList<UserDTO>();
+	}
+
+}

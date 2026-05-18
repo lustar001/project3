@@ -1,0 +1,8 @@
+package kr.or.proj3.Proj3DAO;
+
+import lombok.Data;
+
+
+public interface Proj3DAO {
+
+}

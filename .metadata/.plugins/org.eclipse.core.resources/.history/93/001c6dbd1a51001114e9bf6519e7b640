@@ -1,0 +1,19 @@
+package kr.or.proj3.Service;
+
+import java.util.List;
+
+import kr.or.proj3.DTO.Proj3DTO;
+
+public class ProjServiceImpl  implements Proj3Service{
+	
+	@Override
+	public List<Proj3DTO> readEmp() {
+		
+		List<Proj3DTO> result = sqlSession.selectList(NAMESPACE + "readEmp");
+		
+		
+		return result; 
+		
+	}
+
+}

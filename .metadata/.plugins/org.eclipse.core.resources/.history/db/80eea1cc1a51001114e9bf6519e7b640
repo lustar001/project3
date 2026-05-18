@@ -1,0 +1,25 @@
+package kr.or.proj3.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import kr.or.proj3.DTO.Proj3DTO;
+import kr.or.proj3.Proj3DAO.Proj3DAO;
+
+public class ProjServiceImpl  implements Proj3Service{
+	
+	@Autowired // 2. 방금 세팅을 끝낸 DAO 객체를 주입받습니다.
+	private Proj3DAO proj3DAO; 
+	
+	@Override
+	public List<Proj3DTO> readEmp() {
+		
+		
+		
+		
+		return ; 
+		
+	}
+
+}

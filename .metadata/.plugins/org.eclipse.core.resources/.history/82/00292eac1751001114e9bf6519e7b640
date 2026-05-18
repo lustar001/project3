@@ -1,0 +1,29 @@
+package kr.or.proj3.Controller;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+@Controller
+
+
+public class ProjController {
+	
+	
+	
+	@RequestMapping ("/hello")
+	public String isnull() {
+		System.out.println("hello");
+		
+		return "hello";
+	}
+	
+	@RequestMapping ("/readEmp")
+	public ModelAndView isnull() {
+		System.out.println("readEmp");
+		
+		ModelAndView mav = new ModelAndView();
+		
+		return "hello";
+	}
+	
+	
+
+}

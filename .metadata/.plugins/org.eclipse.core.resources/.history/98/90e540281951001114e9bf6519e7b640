@@ -1,0 +1,7 @@
+package kr.or.proj3.Service;
+
+import kr.or.proj3.Proj3DAO.Proj3DAO;
+
+public class ProjServiceImpl  implements Proj3Service{
+
+}

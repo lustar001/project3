@@ -1,0 +1,5 @@
+package kr.or.proj3.Proj3DAO;
+
+public interface Proj3DAO {
+
+}

@@ -1,0 +1,16 @@
+package proj03.User;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UserController {
+	
+	@RequestMapping("/User")
+	public ModelAndView user() {
+		
+		ModelAndView mav = new ModelAndView("user");
+		
+		return mav;
+	}
+
+}

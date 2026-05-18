@@ -1,0 +1,8 @@
+package kr.or.proj3.Service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface Proj3Service {
+
+}

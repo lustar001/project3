@@ -1,0 +1,6 @@
+package kr.or.proj3;
+
+@Service
+public class Proj3Server {
+
+}

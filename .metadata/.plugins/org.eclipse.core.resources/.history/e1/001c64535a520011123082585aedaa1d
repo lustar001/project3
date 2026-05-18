@@ -1,0 +1,6 @@
+package proj03.User;
+
+@Data
+public class UserDTO {
+
+}
